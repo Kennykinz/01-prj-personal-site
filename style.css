@@ -1,1 +1,38 @@
-/* Add you CSS here */
+/* Make the website background #F6FFF9 */
+body {
+  background-color: #f4f2ee; /* Light beige background */
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif; /* Use the provided fonts */
+}
+
+/* Navigation bar styles */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family:  sans-serif; /* Set font to Aptos Bold */
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: rgb(54, 54, 54);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #50a4d1; /* Light brown background on hover */
+}
+
+/* Style for the active navigation link */
+.navbar .active {
+  background-color: #4aa5d6; /* Light beige background for the active link */
+}
